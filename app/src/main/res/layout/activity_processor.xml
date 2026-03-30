@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Question 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. What is the primary function of a processor?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio_calculation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perform calculations" />
+            <RadioButton
+                android:id="@+id/radio_storage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Store data" />
+        </RadioGroup>
+
+        <!-- Question 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. What does CPU stand for?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <EditText
+            android:id="@+id/edit_cpu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your answer" />
+
+        <!-- Question 3 (Multiple Choice) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Which of the following are parts of a CPU?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:id="@+id/check_alu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ALU (Arithmetic Logic Unit)" />
+
+        <CheckBox
+            android:id="@+id/check_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Control Unit" />
+
+        <CheckBox
+            android:id="@+id/check_ram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RAM" />
+
+        <!-- Question 4 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Which company is a major manufacturer of processors?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio_intel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Intel" />
+            <RadioButton
+                android:id="@+id/radio_seagate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seagate" />
+        </RadioGroup>
+
+        <!-- Question 5 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. What does GHz measure in a CPU?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <EditText
+            android:id="@+id/edit_ghz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your answer" />
+
+        <!-- Question 6 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. Which is a high-end Intel processor series?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio_i9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Intel Core i9" />
+            <RadioButton
+                android:id="@+id/radio_athlon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AMD Athlon" />
+        </RadioGroup>
+
+        <!-- Question 7 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7. What is the primary factor in multi-tasking efficiency?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <EditText
+            android:id="@+id/edit_cores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your answer" />
+
+        <!-- Question 8 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8. Which component stores frequently used CPU instructions?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio_cache"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cache" />
+            <RadioButton
+                android:id="@+id/radio_ssd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SSD" />
+        </RadioGroup>
+
+        <!-- Question 9 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9. What is overclocking?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <EditText
+            android:id="@+id/edit_overclocking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your answer" />
+
+        <!-- Question 10 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10. Which unit handles floating point operations in a CPU?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio_fpu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FPU" />
+            <RadioButton
+                android:id="@+id/radio_alu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ALU" />
+        </RadioGroup>
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/blue_800"/>
+
+        <!-- Result Display -->
+        <TextView
+            android:id="@+id/resultText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:text="Your result will appear here" />
+    </LinearLayout>
+</ScrollView>

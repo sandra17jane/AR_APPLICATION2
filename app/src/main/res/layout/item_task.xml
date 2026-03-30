@@ -1,0 +1,50 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="8dp">
+
+    <!-- 🖼️ Task Image -->
+        <ImageView
+            android:id="@+id/taskImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/placeholder_image"/>
+
+
+        <!-- 🏷️ Task Title -->
+    <TextView
+        android:id="@+id/taskTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:paddingTop="4dp"/>
+
+
+
+
+    <!-- ❌ Remove Task Button -->
+    <Button
+        android:id="@+id/btnRemoveTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remove Task"
+        android:layout_marginTop="6dp"
+        android:backgroundTint="@color/blue_800"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>
+    </androidx.cardview.widget.CardView>

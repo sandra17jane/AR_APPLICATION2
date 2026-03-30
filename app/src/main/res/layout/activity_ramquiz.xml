@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RAM (Memory) Quiz"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp" />
+
+        <!-- Question 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. What does RAM stand for?" />
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio_ram1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Random Access Memory" />
+            <RadioButton
+                android:id="@+id/radio_rom1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Read-Only Memory" />
+        </RadioGroup>
+
+        <!-- Question 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. RAM is considered what type of memory?" />
+        <RadioGroup
+            android:id="@+id/radioGroup2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio_volatile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Volatile" />
+            <RadioButton
+                android:id="@+id/radio_nonvolatile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Non-Volatile" />
+        </RadioGroup>
+
+        <!-- Question 3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Which type of RAM is faster?" />
+        <RadioGroup
+            android:id="@+id/radioGroup3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio_ddr4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DDR4" />
+            <RadioButton
+                android:id="@+id/radio_sdram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SDRAM" />
+        </RadioGroup>
+
+        <!-- Question 4 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. RAM is directly connected to which component?" />
+        <RadioGroup
+            android:id="@+id/radioGroup4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio_cpu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CPU" />
+            <RadioButton
+                android:id="@+id/radio_gpu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GPU" />
+        </RadioGroup>
+
+        <!-- Question 5 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. What happens when RAM is full?" />
+        <EditText
+            android:id="@+id/edit_ram_full"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your answer" />
+
+
+                <!-- Question 6 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. What is RAM speed measured in?" />
+        <RadioGroup
+            android:id="@+id/radioGroup6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radio_mhz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MHz" />
+            <RadioButton
+                android:id="@+id/radio_ghz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GHz" />
+        </RadioGroup>
+
+                <!-- Question 7 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7. What does DDR stand for?" />
+        <EditText
+            android:id="@+id/edit_ddr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your answer" />
+
+                <!-- Question 8 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8. Where is RAM installed?" />
+        <RadioGroup
+            android:id="@+id/radioGroup8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio_dimm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DIMM slot" />
+            <RadioButton
+                android:id="@+id/radio_pci"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PCI slot" />
+        </RadioGroup>
+
+                <!-- Question 9 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9. RAM directly affects what?" />
+        <RadioGroup
+            android:id="@+id/radioGroup9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio_speed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="System Speed" />
+            <RadioButton
+                android:id="@+id/radio_storage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Storage Capacity" />
+        </RadioGroup>
+
+                <!-- Question 10 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10. Ideal RAM for gaming?" />
+        <EditText
+            android:id="@+id/edit_ram_gaming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your answer" />
+
+
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/blue_800"/>
+
+        <!-- Result Display -->
+        <TextView
+            android:id="@+id/resultText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:text="Your result will appear here" />
+    </LinearLayout>
+</ScrollView>

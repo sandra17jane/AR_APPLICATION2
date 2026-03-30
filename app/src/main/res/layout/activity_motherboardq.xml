@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Question 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. What is the main component of a motherboard?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio_cpu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CPU" />
+            <RadioButton
+                android:id="@+id/radio_gpu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GPU" />
+            <RadioButton
+                android:id="@+id/radio_ram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RAM" />
+        </RadioGroup>
+
+        <!-- Question 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Which components are attached to the motherboard?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <CheckBox
+            android:id="@+id/check_ram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RAM" />
+        <CheckBox
+            android:id="@+id/check_harddisk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hard Disk" />
+        <CheckBox
+            android:id="@+id/check_gpu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GPU" />
+
+        <!-- Question 3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. What does BIOS stand for?" />
+        <EditText
+            android:id="@+id/edit_bios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your answer" />
+
+        <!-- Question 4 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Which slot is used to install a GPU?" />
+        <RadioGroup
+            android:id="@+id/radioGroup4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio_pci"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PCIe" />
+            <RadioButton
+                android:id="@+id/radio_sata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SATA" />
+        </RadioGroup>
+
+        <!-- Question 5 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Which of the following is volatile memory?" />
+        <RadioGroup
+            android:id="@+id/radioGroup5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio_rom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ROM" />
+            <RadioButton
+                android:id="@+id/radio_ram2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RAM" />
+        </RadioGroup>
+
+        <!-- Question 6 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. What is the full form of SSD?" />
+        <EditText
+            android:id="@+id/edit_ssd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your answer" />
+
+        <!-- Question 7 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7. Which is the brain of the computer?" />
+        <RadioGroup
+            android:id="@+id/radioGroup7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio_cpu2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CPU" />
+            <RadioButton
+                android:id="@+id/radio_gpu2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GPU" />
+        </RadioGroup>
+
+        <!-- Question 8 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8. Which port is commonly used for USB devices?" />
+        <EditText
+            android:id="@+id/edit_usb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your answer" />
+
+        <!-- Question 9 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9. What is the main storage component inside a computer?" />
+        <RadioGroup
+            android:id="@+id/radioGroup9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio_ssd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SSD" />
+            <RadioButton
+                android:id="@+id/radio_hdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HDD" />
+        </RadioGroup>
+
+        <!-- Question 10 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10. What is the purpose of an Ethernet port?" />
+        <EditText
+            android:id="@+id/edit_ethernet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your answer" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/blue_800"/>
+
+        <!-- Result Display -->
+        <TextView
+            android:id="@+id/resultText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:text="Your result will appear here" />
+    </LinearLayout>
+</ScrollView>

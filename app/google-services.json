@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "932243196723",
+    "project_id": "arapplication-9131d",
+    "storage_bucket": "arapplication-9131d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932243196723:android:7140123c069e77c3af8c46",
+        "android_client_info": {
+          "package_name": "com.example.ar_application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYbA1mXOJYn41S2wShUIWo-wjvjCVhfb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

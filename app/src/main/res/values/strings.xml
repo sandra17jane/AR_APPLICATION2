@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AR_APPLICATION</string>
+    <string-array name="explore_options">
+        <item>Courses</item>
+        <item>Specializations</item>
+        <item>Professional Certificates</item>
+        <item>Online Degrees</item>
+    </string-array>
+</resources>

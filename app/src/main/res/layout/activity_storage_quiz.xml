@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Q1: SSD vs HDD -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. What is the primary advantage of SSDs over HDDs?"
+            android:textSize="16sp" />
+        <RadioGroup
+            android:id="@+id/radio_ssd_hdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio_speed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Faster speed" />
+            <RadioButton
+                android:id="@+id/radio_cost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lower cost" />
+            <RadioButton
+                android:id="@+id/radio_parts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="More moving parts" />
+        </RadioGroup>
+
+        <!-- Q2: USB Port Types (CheckBox) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Which of the following are common USB port types?"
+            android:textSize="16sp" />
+        <CheckBox
+            android:id="@+id/check_usb_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USB-A" />
+        <CheckBox
+            android:id="@+id/check_usb_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USB-B" />
+        <CheckBox
+            android:id="@+id/check_usb_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USB-C" />
+        <CheckBox
+            android:id="@+id/check_sata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SATA" />
+
+        <!-- Q3: Cache Memory -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. What is the purpose of cache memory?"
+            android:textSize="16sp" />
+        <RadioGroup
+            android:id="@+id/radio_cache"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio_cache_speed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Improve data access speed" />
+            <RadioButton
+                android:id="@+id/radio_cache_store"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Store data permanently" />
+        </RadioGroup>
+
+        <!-- Q4: Max SSD Capacity -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Enter the max capacity of an SSD in TB:"
+            android:textSize="16sp" />
+        <EditText
+            android:id="@+id/edit_ssd_capacity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter capacity"
+            android:inputType="number" />
+
+        <!-- Q5: Filesystem Types (Checkbox) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Which are valid filesystem types?"
+            android:textSize="16sp" />
+        <CheckBox
+            android:id="@+id/check_ntfs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NTFS" />
+        <CheckBox
+            android:id="@+id/check_ext4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EXT4" />
+        <CheckBox
+            android:id="@+id/check_fat32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FAT32" />
+        <CheckBox
+            android:id="@+id/check_http"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HTTP" />
+
+        <!-- Q6: RAID Levels -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. Which RAID level offers redundancy?"
+            android:textSize="16sp" />
+        <RadioGroup
+            android:id="@+id/radio_raid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio_raid0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RAID 0" />
+            <RadioButton
+                android:id="@+id/radio_raid1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RAID 1" />
+            <RadioButton
+                android:id="@+id/radio_raid2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RAID 2" />
+        </RadioGroup>
+
+        <!-- Q7: Lifespan of SSD -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7. Typical SSD lifespan (years)?"
+            android:textSize="16sp" />
+        <EditText
+            android:id="@+id/edit_lifespan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter years"
+            android:inputType="number" />
+
+        <!-- Q8: Partition Format -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8. Which is NOT a partition format?"
+            android:textSize="16sp" />
+        <RadioGroup
+            android:id="@+id/radio_partition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio_gpt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GPT" />
+            <RadioButton
+                android:id="@+id/radio_mbr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MBR" />
+            <RadioButton
+                android:id="@+id/radio_xml"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="XML" />
+        </RadioGroup>
+
+        <!-- Q9: NVMe Speed -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9. What makes NVMe faster?"
+            android:textSize="16sp" />
+        <RadioGroup
+            android:id="@+id/radio_nvme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio_parallel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Parallel data processing" />
+            <RadioButton
+                android:id="@+id/radio_serial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Serial data transfer" />
+        </RadioGroup>
+
+        <!-- Q10: Blu-ray Storage -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10. Max storage of a Blu-ray disc?"
+            android:textSize="16sp" />
+        <RadioGroup
+            android:id="@+id/radio_bluray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio_25gb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25GB" />
+            <RadioButton
+                android:id="@+id/radio_50gb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50GB" />
+            <RadioButton
+                android:id="@+id/radio_100gb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100GB" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/resultText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"/>
+    </LinearLayout>
+</ScrollView>

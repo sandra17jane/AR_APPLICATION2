@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.ar_application">
+    <!-- ✅ Declare AR Features -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.ar"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.ar"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Material3.DayNight.NoActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name=".ARLaptopActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ARProcessorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ARStorageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ARRamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ARMotherboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ARRigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ARCPUActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="optional" />
+
+        <activity
+            android:name=".StorageQuizActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AR_APPLICATION" />
+        <activity
+            android:name=".RAMQuizActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AR_APPLICATION" />
+        <activity
+            android:name=".ProcessorActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AR_APPLICATION" />
+        <activity
+            android:name=".MotherboardqActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AR_APPLICATION" >
+
+        </activity>
+        <activity
+            android:name=".QuizActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AR_APPLICATION" >
+
+    </activity>
+        <activity
+            android:name=".AdminViewTopicsActivity"
+            android:theme="@style/Theme.AR_APPLICATION" />
+        <activity
+            android:name=".TopicDetailActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AR_APPLICATION" />
+        <activity
+            android:name=".AdminActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AR_APPLICATION">
+
+        </activity>
+        <activity
+            android:name=".Home"
+            android:exported="true"
+            android:theme="@style/Theme.AR_APPLICATION">
+
+        </activity>
+        <activity
+            android:name=".SignupActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AR_APPLICATION" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AR_APPLICATION" />
+        <activity
+            android:name=".FrontpageActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AR_APPLICATION">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".ARkeyActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AR_APPLICATION">
+
+        </activity>
+    </application>
+
+</manifest>

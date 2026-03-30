@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- Shades of Blue -->
+    <color name="blue_50">#E3F2FD</color>
+    <color name="blue_100">#BBDEFB</color>
+    <color name="blue_200">#90CAF9</color>
+    <color name="blue_300">#64B5F6</color>
+    <color name="blue_400">#42A5F5</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="blue_600">#1E88E5</color>
+    <color name="blue_700">#1976D2</color>
+    <color name="blue_800">#1565C0</color>
+    <color name="blue_900">#0D47A1</color>
+
+    <!-- Light Blues -->
+    <color name="sky_blue">#87CEEB</color>
+    <color name="baby_blue">#89CFF0</color>
+    <color name="powder_blue">#B0E0E6</color>
+    <color name="alice_blue">#F0F8FF</color>
+    <color name="ice_blue">#DDF9FF</color>
+    <color name="azure_blue">#007FFF</color>
+
+    <!-- Dark Blues -->
+    <color name="navy_blue">#000080</color>
+    <color name="midnight_blue">#191970</color>
+    <color name="royal_blue">#4169E1</color>
+    <color name="sapphire_blue">#0F52BA</color>
+    <color name="prussian_blue">#003153</color>
+    <color name="cobalt_blue">#0047AB</color>
+
+    <!-- Vibrant Blues -->
+    <color name="electric_blue">#7DF9FF</color>
+    <color name="cerulean_blue">#007BA7</color>
+    <color name="cyan_blue">#00FFFF</color>
+    <color name="capri_blue">#00BFFF</color>
+    <color name="deep_sky_blue">#00BFFF</color>
+
+    <!-- Muted and Pastel Blues -->
+    <color name="steel_blue">#4682B4</color>
+    <color name="cornflower_blue">#6495ED</color>
+    <color name="periwinkle_blue">#CCCCFF</color>
+    <color name="dusty_blue">#5A7494</color>
+    <color name="slate_blue">#6A5ACD</color>
+
+    <!-- Earthy and Warm Blues -->
+    <color name="teal_blue">#367588</color>
+    <color name="denim_blue">#1560BD</color>
+    <color name="peacock_blue">#1F305E</color>
+    <color name="blue_gray">#6699CC</color>
+
+
+    <!-- Background and surface colors -->
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorError">#B00020</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnSecondary">#000000</color>
+    <color name="colorOnBackground">#000000</color>
+    <color name="colorOnSurface">#000000</color>
+    <color name="colorOnError">#FFFFFF</color>
+
+    <!-- Neutral colors -->
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+    <color name="lightGray">#D3D3D3</color>
+    <color name="darkGray">#A9A9A9</color>
+
+    <!-- Red shades -->
+    <color name="red">#FF0000</color>
+    <color name="lightRed">#FFCDD2</color>
+    <color name="darkRed">#D32F2F</color>
+
+    <!-- Blue shades -->
+    <color name="blue">#0000FF</color>
+    <color name="lightBlue">#BBDEFB</color>
+    <color name="darkBlue">#1976D2</color>
+
+    <!-- Green shades -->
+    <color name="green">#008000</color>
+    <color name="lightGreen">#C8E6C9</color>
+    <color name="darkGreen">#388E3C</color>
+
+    <!-- Yellow shades -->
+    <color name="yellow">#FFFF00</color>
+    <color name="lightYellow">#FFF9C4</color>
+    <color name="darkYellow">#FBC02D</color>
+
+    <!-- Orange shades -->
+    <color name="orange">#FFA500</color>
+    <color name="lightOrange">#FFE0B2</color>
+    <color name="darkOrange">#F57C00</color>
+
+    <!-- Purple shades -->
+    <color name="purple">#800080</color>
+    <color name="lightPurple">#E1BEE7</color>
+    <color name="darkPurple">#7B1FA2</color>
+
+    <!-- Pink shades -->
+    <color name="pink">#FFC0CB</color>
+    <color name="lightPink">#F8BBD0</color>
+    <color name="darkPink">#C2185B</color>
+
+    <!-- Teal shades -->
+    <color name="teal">#008080</color>
+    <color name="lightTeal">#B2DFDB</color>
+    <color name="darkTeal">#00796B</color>
+
+    <!-- Brown shades -->
+    <color name="brown">#A52A2A</color>
+    <color name="lightBrown">#D7CCC8</color>
+    <color name="darkBrown">#5D4037</color>
+
+    <!-- Shades of Green -->
+    <color name="green_50">#E8F5E9</color>
+    <color name="green_100">#C8E6C9</color>
+    <color name="green_200">#A5D6A7</color>
+    <color name="green_300">#81C784</color>
+    <color name="green_400">#66BB6A</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="green_600">#43A047</color>
+    <color name="green_700">#388E3C</color>
+    <color name="green_800">#2E7D32</color>
+    <color name="green_900">#1B5E20</color>
+
+    <!-- Light and dark variations -->
+    <color name="light_green">#D4EDDA</color>
+    <color name="dark_green">#006400</color>
+
+    <!-- Vibrant greens -->
+    <color name="lime_green">#32CD32</color>
+    <color name="forest_green">#228B22</color>
+    <color name="sea_green">#2E8B57</color>
+    <color name="spring_green">#00FF7F</color>
+    <color name="medium_sea_green">#3CB371</color>
+    <color name="yellow_green">#9ACD32</color>
+
+    <!-- Cool greens -->
+    <color name="teal_green">#008080</color>
+    <color name="mint_green">#98FF98</color>
+    <color name="pale_green">#98FB98</color>
+    <color name="light_sea_green">#20B2AA</color>
+    <color name="aquamarine">#7FFFD4</color>
+
+    <!-- Earthy greens -->
+    <color name="olive_green">#808000</color>
+    <color name="dark_olive_green">#556B2F</color>
+    <color name="sage_green">#B2AC88</color>
+    <color name="moss_green">#8A9A5B</color>
+    <color name="fern_green">#4F7942</color>
+
+    <!-- Muted greens -->
+    <color name="ash_green">#A9C4A4</color>
+    <color name="gray_green">#A9B9A9</color>
+    <color name="camouflage_green">#78866B</color>
+    <color name="jade_green">#00A86B</color>
+
+    <!-- Pastel greens -->
+    <color name="pastel_green">#77DD77</color>
+    <color name="honeydew_green">#F0FFF0</color>
+    <color name="pear_green">#D1E231</color>
+
+    <!-- Shades of Brown -->
+    <color name="brown_50">#EFEBE9</color>
+    <color name="brown_100">#D7CCC8</color>
+    <color name="brown_200">#BCAAA4</color>
+    <color name="brown_300">#A1887F</color>
+    <color name="brown_400">#8D6E63</color>
+    <color name="brown_500">#795548</color>
+    <color name="brown_600">#6D4C41</color>
+    <color name="brown_700">#5D4037</color>
+    <color name="brown_800">#4E342E</color>
+    <color name="brown_900">#3E2723</color>
+
+    <!-- Light Browns -->
+    <color name="tan">#D2B48C</color>
+    <color name="beige">#F5F5DC</color>
+    <color name="khaki">#F0E68C</color>
+    <color name="wheat">#F5DEB3</color>
+    <color name="sand">#C2B280</color>
+
+    <!-- Dark Browns -->
+    <color name="chocolate">#D2691E</color>
+    <color name="saddle_brown">#8B4513</color>
+    <color name="umber">#635147</color>
+    <color name="sepia">#704214</color>
+    <color name="coffee">#6F4E37</color>
+
+    <!-- Muted Browns -->
+    <color name="taupe">#483C32</color>
+    <color name="mushroom">#A38C6C</color>
+    <color name="peach_brown">#C29E7A</color>
+    <color name="copper">#B87333</color>
+
+    <!-- Shades of White -->
+    <color name="white">#FFFFFF</color>
+    <color name="snow_white">#FFFAFA</color>
+    <color name="ivory">#FFFFF0</color>
+    <color name="linen">#FAF0E6</color>
+    <color name="seashell">#FFF5EE</color>
+    <color name="antique_white">#FAEBD7</color>
+    <color name="old_lace">#FDF5E6</color>
+    <color name="floral_white">#FFFAF0</color>
+    <color name="ghost_white">#F8F8FF</color>
+    <color name="honeydew">#F0FFF0</color>
+    <color name="beige_white">#F5F5DC</color>
+    <color name="mint_cream">#F5FFFA</color>
+    <color name="light_gray">#D3D3D3</color>
+    <color name="gainsboro">#DCDCDC</color>
+    <color name="platinum">#E5E4E2</color>
+
+    <!-- Warm Whites -->
+    <color name="vanilla">#F3E5AB</color>
+    <color name="cream">#FFFDD0</color>
+    <color name="eggshell">#F0EAD6</color>
+    <color name="pearl">#FDEEF4</color>
+
+    <!-- Cool Whites -->
+    <color name="azure">#F0FFFF</color>
+    <color name="powder_white">#ECEFF1</color>
+    <color name="off_white">#F8F8F8</color>
+    <color name="silk_white">#F4F4F4</color>
+
+
+
+</resources>
